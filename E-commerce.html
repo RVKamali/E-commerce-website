@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BookWeb - Online Bookstore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-color:beige;">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    
+    <a class="navbar-brand" href="#"><img src = "Images/Logo.png" style="width: 10%;"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#catalog">Catalog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="bg-light text-center py-5">
+  <div class="container">
+    <h1 class="display-4"><b>Welcome to BookWeb </b></h1>
+    <p class="lead" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Your one-stop destination for books that inspire, entertain, and inform.
+
+Nestled in the digital world, BookWeb is more than an online bookstore , it's a home for readers.
+We believe a great book doesn't just fill shelves , it fills minds, sparks dreams, and changes perspectives. That's why BookWeb brings you a carefully curated collection of books across genres, handpicked for the curious, the creative, and the passionate.
+
+Whether you're a night owl binging thrillers, a self-help junkie crafting your best life, or someone rediscovering the joy of reading ; we've got your next favorite book.
+</p>
+<p class="lead" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >BookWeb isn't just a store , it's a story.</p>
+<p class="lead" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >And we'd love for you to be part of ours.</p>
+    <a href="#catalog" class="btn btn-primary btn-lg mt-3">Shop Now</a>
+  </div>
+</section>
+
+<!-- Catalog Section -->
+<section id="catalog" class="py-5">
+  <div class="container">
+    <h2 class="mb-4 text-center">Book Catalog</h2>
+    <div class="row g-4">
+
+      <!-- Book-1 -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="Images/The Alchemist.jpeg" class="card-img-top" alt="Book Image"
+          style="width: 100% ;">
+          <div class="card-body">
+            <h5 class="card-title">The Alchemist</h5>
+            <p class="card-text"><strong>Author:</strong> Paulo Coelho</p>
+            <p class="card-text">A philosophical book about following your dreams and listening to your heart.</p>
+            <p class="card-text"><strong>Genre:</strong> Fiction | <strong>Price:</strong> ₹299 | ⭐⭐⭐⭐☆</p>
+            <button class="btn btn-success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Book 2 -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="Images/Atomic habits.jpeg" class="card-img-top" alt="Book Image" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Atomic Habits</h5>
+            <p class="card-text"><strong>Author:</strong> James Clear</p>
+            <p class="card-text">Learn how tiny changes lead to remarkable results through habit building.</p>
+            <p class="card-text"><strong>Genre:</strong> Self-help | <strong>Price:</strong> ₹499 | ⭐⭐⭐⭐⭐</p>
+            <button class="btn btn-success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Book 3 -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="Images/Wings of fire.jpeg" class="card-img-top" alt="Book Image">
+          <div class="card-body">
+            <h5 class="card-title">Wings of Fire</h5>
+            <p class="card-text"><strong>Author:</strong> A.P.J. Abdul Kalam</p>
+            <p class="card-text">An inspiring autobiography of India's missile man and former President.</p>
+            <p class="card-text"><strong>Genre:</strong> Biography | <strong>Price:</strong> ₹350 | ⭐⭐⭐☆☆</p>
+            <button class="btn btn-success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!--Book4-->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="Images/Rich Dad Poor Dad.jpg" class="card-img-top" alt="Book Image">
+          <div class="card-body">
+            <h5 class="card-title">Rich Dad Poor Dad</h5>
+            <p class="card-text"><strong>Author:</strong> Robert Kiyosaki</p>
+            <p class="card-text">This book teaches that financial success comes from acquiring assets, investing wisely, and building passive income. </p>
+            <p class="card-text"><strong>Genre:</strong> Self-help | <strong>Price:</strong> ₹299 | ⭐⭐⭐⭐☆</p>
+            <button class="btn btn-success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!--Book 5-->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="Images/Life of pi.jpg" class="card-img-top" alt="Book Image">
+          <div class="card-body">
+            <h5 class="card-title">Life of Pi</h5>
+            <p class="card-text"><strong>Author:</strong> Yann Martel</p>
+            <p class="card-text"> A story of survival that explores faith, resilience, and imagination.</p>
+            <p class="card-text"><strong>Genre:</strong> Fiction | <strong>Price:</strong> ₹399 | ⭐⭐⭐⭐☆</p>
+            <button class="btn btn-success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Book 6 -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="Images/Sapiens.png" class="card-img-top" alt="Book Image">
+          <div class="card-body">
+            <h5 class="card-title">Sapiens:A Brief History of Humankind</h5>
+            <p class="card-text"><strong>Author:</strong>Yuval Noah Harari</p>
+            <p class="card-text">A deep dive into the history of human evolution.</p>
+            <p class="card-text"><strong>Genre:</strong> Non-fiction | <strong>Price:</strong> ₹350 | ⭐⭐⭐☆☆</p>
+            <button class="btn btn-success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Book 7 -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="Images/Diary of a young girl.jpeg" class="card-img-top" alt="Book Image">
+          <div class="card-body">
+            <h5 class="card-title">The Diary of a Young girl</h5>
+            <p class="card-text"><strong>Author:</strong> Anne Frank</p>
+            <p class="card-text">A real account of a Jewish girl's life during the Holocaust.</p>
+            <p class="card-text"><strong>Genre:</strong> Non-fiction | <strong>Price:</strong> ₹250 | ⭐⭐⭐⭐☆</p>
+            <button class="btn btn-success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Book 8 -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="Images/zero to one.jpeg" class="card-img-top" alt="Book Image">
+          <div class="card-body">
+            <h5 class="card-title">Zero to One</h5>
+            <p class="card-text"><strong>Author:</strong> Peter Thiel</p>
+            <p class="card-text">Insights on startup innovation and building future businesses.</p>
+            <p class="card-text"><strong>Genre:</strong> Self-help | <strong>Price:</strong> ₹299 | ⭐⭐⭐☆☆</p>
+            <button class="btn btn-success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Book 9 -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="Images/Why we sleep.webp" class="card-img-top" alt="Book Image">
+          <div class="card-body">
+            <h5 class="card-title">Why We Sleep</h5>
+            <p class="card-text"><strong>Author:</strong> Matthew Walker</p>
+            <p class="card-text">The science behind sleep and its impact on our health.</p>
+            <p class="card-text"><strong>Genre:</strong> Science and Psycology | <strong>Price:</strong> ₹199 | ⭐⭐⭐⭐☆</p>
+            <button class="btn btn-success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Book 10 -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="Images/I am malala.jpeg" class="card-img-top" alt="Book Image">
+          <div class="card-body">
+            <h5 class="card-title">I am Malala</h5>
+            <p class="card-text"><strong>Author:</strong> Malala Yousafzai</p>
+            <p class="card-text">A young girl's fight for education under Taliban rule.</p>
+            <p class="card-text"><strong>Genre:</strong> Biography | <strong>Price:</strong> ₹299 | ⭐⭐⭐☆☆</p>
+            <button class="btn btn-success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-light py-5">
+  <div class="container">
+    <h2 class="mb-4 text-center">Contact Us</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h5>Get in Touch</h5>
+        <p><strong>Email:</strong> bookwebofficial@gmail.com</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Address:</strong> 123, North Street, Bangalore</p>
+        <p>
+          <a href="#" class="me-2 text-dark"><i class="bi bi-facebook"></i> Facebook</a>
+          <a href="#" class="me-2 text-dark"><i class="bi bi-twitter"></i> Twitter</a>
+          <a href="#" class="text-dark"><i class="bi bi-instagram"></i> Instagram</a>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p class="mb-0">&copy; 2025 BookWeb. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
